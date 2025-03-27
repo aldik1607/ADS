@@ -1,4 +1,7 @@
 import tasks.Task1;
+import tasks.Task2;
+import tasks.Task3;
+import tasks.Task4;
 
 import javax.swing.*;
 import java.util.Scanner;
@@ -14,6 +17,15 @@ public class Main {
                 case 1:
                     Task1.problem();
                     break;
+                    case 2:
+                        Task2.problem();
+                        break;
+                        case 3:
+                            Task3.problem();
+                            break;
+                            case 4:
+                                Task4.problem();
+                                break;
                     default:
                         System.out.println("Invalid choice");
             }
