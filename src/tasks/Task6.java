@@ -13,11 +13,12 @@ public class Task6 {
         int result = power(num1, num2);
         double endTime = System.nanoTime();
         double duration = (endTime - startTime)/1000000;
-        System.out.println("Fibonacci of this number is: " + result);
+        System.out.println("Number in this power is: " + result);
         System.out.println("Time taken: " + duration + " milliseconds");
     }
     public static int power(int a, int n){
-        int res = (int) Math.pow(a,n);
-        return res;
+        if (n == 0)
+            return 1;
+        return a * power(a, n-1);
     }
 }
