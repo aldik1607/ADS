@@ -26,6 +26,9 @@ public class Main {
                                 case 5:
                                     Task5.problem();
                                     break;
+                                    case 6:
+                                        Task6.problem();
+                                        break;
                     default:
                         System.out.println("Invalid choice");
             }
