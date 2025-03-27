@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         boolean exit = false;
         while(!exit) {
-            System.out.println("number");
+            System.out.println("Enter task number: ");
             int choice = getUserChoice();
             switch(choice) {
                 case 1:
