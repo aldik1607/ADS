@@ -17,8 +17,10 @@ public class Task6 {
         System.out.println("Time taken: " + duration + " milliseconds");
     }
     public static int power(int a, int n){
+        // Any number to the power of 0 is 1
         if (n == 0)
             return 1;
+        // Recursively multiplying number
         return a * power(a, n-1);
     }
 }

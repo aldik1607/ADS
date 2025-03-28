@@ -15,10 +15,13 @@ public class Task5 {
         System.out.println("Time taken: " + duration + " milliseconds");
     }
     public static int fibonacci(int num){
+        // 0th Fibonacci number is 0
         if (num  == 0)
             return 0;
+        // 1st Fibonacci number is 1
         if (num == 1)
             return 1;
+        // F(n) = F(n - 1) + F(n - 2)
         return fibonacci(num - 1) + fibonacci(num - 2);
     }
 }
