@@ -1,10 +1,10 @@
-Main
+# Main
 1. Run this file to start the program
 2. Select the needed funtion from the list
 3. Enter required arguments
 4. Get result
 
-Functions
+# Functions
 1. Minimum of an array
 Retruns the smallest number in the array
 2. Average of n array
