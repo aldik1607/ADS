@@ -13,14 +13,14 @@ public class Task9 {
         double endTime = System.nanoTime();
         double duration = (endTime - startTime)/1000000;
         System.out.println("Time taken: " + duration + " milliseconds");
-        System.out.println("Binomial coefficient is: " + binomalCoef(n,k));
+        System.out.println("Binomial coefficient is: " + binomialCoef(n,k));
     }
-    public static int binomalCoef(int n, int k){
+    public static int binomialCoef(int n, int k){
         // If k is 0 or k equals n,return 1
         if (k == 0 || k == n){
             return 1;
         }
         //C(n,k) = C(n-1,k-1) + C(n-1,k)
-        return binomalCoef(n - 1, k - 1) + binomalCoef(n - 1, k);
+        return binomialCoef(n - 1, k - 1) + binomialCoef(n - 1, k);
     }
 }
