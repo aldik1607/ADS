@@ -5,7 +5,7 @@
 4. Get result
 
 # Functions
-1. Minimum of an array '/n'
+1. Minimum of an array
 Retruns the smallest number in the array
 2. Average of n array
 Returns the average value of all elements of the array
